@@ -1,0 +1,81 @@
+/* reset de valeurs natives */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* valeurs container */
+#container {
+    width: 500px;
+    height: 500px;
+    background: #10ED53;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+/* disposition carré bleu ciel */
+#bleu-ciel {
+    width: 180px;
+    height: 180px;
+    background: #06F1FF;
+    rotate: 45deg;
+    position: absolute;
+    top: 287px;
+    left: 160px;
+}
+
+/* disposition rectangle violet pour cacher une partie du carré bleu ciel */
+#violet {
+    width: 500px;
+    height: 125px;
+    background: #7F007F;
+    position: absolute;
+    top: 375px;
+}
+
+/* disposition carré rouge */
+#rouge {
+    width: 177px;
+    height: 178px;
+    background: #FF0000;
+    rotate: 45deg;
+    position: absolute;
+    top: 161px;
+    left: 286px;
+}
+
+/*disposition carré bleu */
+#bleu {
+    width: 178px;
+    height: 178px;
+    background: #0000FF;
+    rotate: 45deg;
+    position: absolute;
+    top: 36px;
+    left: 412px;
+}
+
+/* disposition carré orange qui cache une partie du rectangle violet */
+#orange {
+    width: 500px;
+    height: 500px;
+    background: #FEA601;
+    rotate: 45deg;
+    position: absolute;
+    top: 353px;
+    left: 250px;
+}
+
+/* disposition carré jaune qui cache une autre partie du rectangle violet */
+#jaune {
+    width: 460px;
+    height: 460px;
+    background: #FFFF00;
+    rotate: 45deg;
+    position: absolute;
+    top: 20px;
+    left: -306px;
+}
